@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   # s.dependency 'JSONKit', '~> 1.4'
-  s.dependency 'OpenSSL'
+  s.dependency 'OpenSSL', '1.0.0'
   s.dependency 'SQLCipher'
   s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC' }
 end
