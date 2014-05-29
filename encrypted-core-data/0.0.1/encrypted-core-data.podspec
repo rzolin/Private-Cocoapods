@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "encrypted-core-data"
-  s.version      = "0.1"
+  s.version      = "0.0.1"
   # s.summary      = "A short description of encrypted-core-data."
 
   # s.description  = <<-DESC
